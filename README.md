@@ -42,3 +42,7 @@
 ### The Universal Selector: Select all elements
 
 `*`
+
+### Combine Universal Selector:
+
+`p` `*` selects any element inside all `<p>` elements.
