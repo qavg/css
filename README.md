@@ -15,3 +15,7 @@
 ### Combine the Descendant & ID Selectors:
 
 `#id A`: Selects all A inside of #id
+
+### Class Selector:
+
+`.classname`: Select elements by their class
