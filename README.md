@@ -16,6 +16,12 @@
 
 `#id A`: Selects all A inside of #id
 
-### Class Selector:
+### Class Selector: Select elements by their class
 
-`.classname`: Select elements by their class
+`.classname`: `.neato` selects all elements with `class="neato"`
+
+### Combine the Class Selector: You can combine the class selector with other selectors, like the type selector.
+
+`A.className`:
+`ul.important` selects all `ul` elements that have `class="important"`
+`#big.wide` selects all elements with `id="big"` that also have `class="wide"`
