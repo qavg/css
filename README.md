@@ -30,3 +30,11 @@
 
 `#fancy.bento orange.small`: selects all small oranges on a fancy bento
 (or for each `bento` with `id="fancy"`, selects only `oranges` that have `class="small`")
+
+### Comma Combinator: Combine selectors with commas
+
+`A, B`: Thanks to Shatner technology, this selects all A and B elements. You can combine any selectors this way, and you can specify more than two.
+
+`p`, `.fun` selects all `p` elements as well as all elements with `class="fun"`
+`a`, `p`, `div` selects all `a`, `p` and `div` elements
+`plate`, `bento` selects everything inside of <plate /> and <bento />, including e.g. <pickle />
