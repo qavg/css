@@ -25,3 +25,8 @@
 `A.className`:
 `ul.important` selects all `ul` elements that have `class="important"`
 `#big.wide` selects all elements with `id="big"` that also have `class="wide"`
+
+### Combine Descendant, ID, and Class Selectors:
+
+`#fancy.bento orange.small`: selects all small oranges on a fancy bento
+(or for each `bento` with `id="fancy"`, selects only `oranges` that have `class="small`")
