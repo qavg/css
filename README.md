@@ -11,3 +11,7 @@
 ### Descendant Selector: Select an element inside another element
 
 `A B`: Selects all B inside of A. B is called a descendant because it is inside of another element
+
+### Combine the Descendant & ID Selectors:
+
+`#id A`: Selects all A inside of #id
