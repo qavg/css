@@ -38,3 +38,7 @@
 `p`, `.fun` selects all `p` elements as well as all elements with `class="fun"`
 `a`, `p`, `div` selects all `a`, `p` and `div` elements
 `plate`, `bento` selects everything inside of <plate /> and <bento />, including e.g. <pickle />
+
+### The Universal Selector: Select all elements
+
+`*`
